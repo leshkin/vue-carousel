@@ -1,4 +1,4 @@
-# vue-carousel
+# Vue Carousel
 Minimalistic starter to create a carousel on Vue with touch control. Compatible with Vue 2 and 3.
 
 ## Start
