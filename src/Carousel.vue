@@ -1,4 +1,5 @@
 <template>
+  <h3>Use touch to drag slides</h3>
   <div ref="carousel" class="carousel" @touchstart="touchStart" @touchend="touchEnd" @touchmove="touchMove">
     <transition-group
       ref="track"
@@ -90,8 +91,8 @@ export default {
   max-width: 1280px;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .carousel {
